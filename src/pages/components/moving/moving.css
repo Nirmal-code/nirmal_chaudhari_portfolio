@@ -1,0 +1,100 @@
+.square #b1, #b2, #b3,#b4,#b5, #b6, #b7, #b8, #b9, #b10, #b11{
+    color:rgba(0, 255, 21, 0.144);
+    font-size:20px;
+
+    
+    position: absolute;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+    animation: sampleanimation 10s infinite;
+    animation-timing-function: linear;
+}
+
+
+#b1{
+    left: 100px;
+    top: 20%;
+    animation-duration: 6500s;
+    
+}
+
+#b2{
+    left: 400px;
+    top: 80%;
+    animation-duration: 8500ms;
+
+    
+
+}
+
+#b3{
+    left: 800px;
+    top: 50%;
+    animation-duration: 6000ms;
+
+}
+
+#b4{
+    left: 1200px;
+    top: 40%;
+    animation-duration: 7500ms;
+
+}
+
+#b5{
+    left: 1600px;
+    top: 25%;
+    animation-duration: 8000ms;
+}
+
+#b6{
+    left: 1400px;
+    top: 75%;
+    animation-duration: 5500ms;
+}
+
+#b7{
+    left: 600px;
+    top: 60%;
+    animation-duration: 5000ms;
+}
+
+#b8{
+    left: 970px;
+    top: 30%;
+    animation-duration: 6000ms;
+}
+
+#b9{
+    left: 1800px;
+    top: 0%;
+    animation-duration: 6500ms;
+}
+
+#b10{
+    left: 1300px;
+    top: 90%;
+    animation-duration: 9000ms;
+}
+
+#b11{
+    left: 200px;
+    top: 0%;
+    animation-duration: 4500ms;
+}
+
+
+
+
+
+
+  
+@keyframes sampleanimation {
+    0% {
+        top: -100%;
+    }
+    100%{
+        top:100%;
+    }
+}

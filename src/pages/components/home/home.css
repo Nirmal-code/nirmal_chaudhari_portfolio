@@ -1,0 +1,116 @@
+.home{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align:left;
+    
+
+    color: #FFFFFF;
+    z-index: +1;
+}
+
+hr{
+    height:3px;
+    background-color:#FFFFFF;
+    width:500px;
+    position:relative;
+    left:-25%;
+}
+
+#resume{
+    background-color:#1b1b1b;
+    border-color:white;
+    font-size: 30px;
+    color:white;
+    width:400px;
+    margin-top:20px;
+    margin-left:45px;
+    border-radius:20px;
+}
+
+#resume:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+}
+
+#name{
+    font-size:60px;
+}
+
+
+#main_image{
+    position:absolute;
+    width:600px;
+    top:-20vh;
+    right:-25vw;
+
+}
+
+
+#greeting{
+    font-size:40px;
+}
+
+@media only screen and (max-width:769px){
+    #name{
+        font-size:60px;
+    }
+    
+    #greeting{
+        font-size:40px;
+    }
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1260px){
+    #name{
+        font-size:60px;
+    }
+    
+    #greeting{
+        font-size:40px;
+    }
+
+}
+
+
+@media only screen and (min-width:1261px) and (max-width:1500px){
+    #name{
+        font-size:70px;
+    }
+    
+    #greeting{
+        font-size:40px;
+        margin-top:100px;
+    }
+
+    .title{
+        margin-left:5%;
+        width:1000px;
+    }
+
+    #des{
+        font-size:30px;
+        color: rgb(200, 200, 200);
+    }
+
+}
+
+
+@media only screen and (min-width:1501px){
+    #name{
+        font-size:60px;
+    }
+    
+    #greeting{
+        font-size:40px;
+    }
+
+}
