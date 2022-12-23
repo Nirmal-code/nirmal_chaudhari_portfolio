@@ -1,5 +1,6 @@
 import './home.css';
 import home_image from '../../images/home_image.png';
+import resume from '../../documents/NirmalChaudhari_CurrentResume.pdf';
 import React from 'react';
 
 
@@ -14,7 +15,7 @@ function Home(){
                 <h3 id="des">Skilled at developing, testing, and implementing efficient codes to perform various tasks.</h3>
             </div>
 
-            <button id="resume">Download Resume</button>
+            <a href={resume} id="resume" download>Download Resume</a>
 
             <img src={home_image} id="main_image" alt="my_bitmoji"></img>
 

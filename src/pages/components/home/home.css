@@ -24,6 +24,9 @@ hr{
 
 #resume{
     background-color:#1b1b1b;
+    text-decoration: none;
+    padding:5px;
+    border:1px solid black;
     border-color:white;
     font-size: 30px;
     color:white;
