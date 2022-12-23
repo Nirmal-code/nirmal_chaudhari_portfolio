@@ -1,5 +1,6 @@
 import './nav.css';
 import linkedin from '../../images/linkedin.png'
+import github from '../../images/github.png'
 import React from 'react';
 
 
@@ -11,6 +12,7 @@ function navbar(){
                 <ul id="netul">
                     <li><h2 id="logo">NC</h2></li>
                     <li><a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"><img id="linkedin" alt="LinkedIn_img" src={linkedin} href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"></img></a></li>
+                    <li><a target="_blank"  rel="noreferrer" href="https://github.com/Nirmal-code"><img id="github" alt="Github_img" src={github} href="https://github.com/Nirmal-code"></img></a></li>
                 </ul>
             </div>
             <div className="navbar">
