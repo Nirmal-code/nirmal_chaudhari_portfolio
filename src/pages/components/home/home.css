@@ -1,17 +1,82 @@
 .home{
+    height:100vh;
+}
+
+.title{
     position: absolute;
-    left: 100px;
-    top: 200px;
+    left: 5vw;
+    margin-top: 150px;
 
     font-family: 'Courier New', Courier, monospace;
-    font-size:40px;
-    font-weight: 700;
-    line-height: 22px;
     text-align:left;
     
 
     color: #FFFFFF;
     z-index: +1;
+}
+
+#linkedin{
+    width:40px;
+    border-radius: 5px;
+    position:relative;  
+    margin-top:-13px;
+    margin-left:-35px;
+}
+
+#github{
+    width:40px;
+    border-radius: 5px;
+    position:relative;  
+    margin-top:-13px;
+    margin-left:20px;
+}
+
+
+
+#logo{
+    color:yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:50px;
+    margin-left:25px;
+    margin-top:-13px;
+}
+
+
+#netul li{
+    text-decoration: none;
+    display:inline-block;
+}
+
+
+.network{
+    width:200px;
+    height:50px;
+    left:5vw;
+    position:absolute;
+    border: 1px solid white;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    background-color:rgba(79, 79, 79, 0.5);
+    border-radius: 10px;
+    animation: logoani 1s infinite;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes logoani {
+    0% {
+        top: 7vh;
+    }
+
+    50%{
+        top:8vh;
+    }
+
+
+    100%{
+        top:7vh;
+    }
 }
 
 hr{
@@ -20,19 +85,19 @@ hr{
     width:500px;
     position:relative;
     left:-25%;
+    margin-top:-50px;
 }
 
 #resume{
-    background-color:#1b1b1b;
     text-decoration: none;
-    padding:5px;
+    position:relative;
+    top:20px;
+    padding:10px;
     border:1px solid black;
     border-color:white;
     font-size: 30px;
     color:white;
     width:400px;
-    margin-top:20px;
-    margin-left:45px;
     border-radius:20px;
 }
 
@@ -42,22 +107,27 @@ hr{
     color:black;
 }
 
-#name{
-    font-size:60px;
+
+
+#greeting{
+    font-size:70px;
+    font-weight: 600;
+    position:relative;
+}
+
+#intr{
+    font-size:40px;
+    margin-bottom:-150px;
+    margin-top:150px;
 }
 
 
 #main_image{
     position:absolute;
     width:600px;
-    top:-20vh;
+    top:-10vh;
     right:-25vw;
 
-}
-
-
-#greeting{
-    font-size:40px;
 }
 
 @media only screen and (max-width:769px){
@@ -85,14 +155,7 @@ hr{
 
 
 @media only screen and (min-width:1261px) and (max-width:1500px){
-    #name{
-        font-size:70px;
-    }
     
-    #greeting{
-        font-size:40px;
-        margin-top:100px;
-    }
 
     .title{
         margin-left:5%;
@@ -108,12 +171,15 @@ hr{
 
 
 @media only screen and (min-width:1501px){
-    #name{
-        font-size:60px;
-    }
     
     #greeting{
         font-size:40px;
+    }
+
+    #des{
+        font-size:30px;
+        color: rgb(200, 200, 200);
+        width:500px;
     }
 
 }

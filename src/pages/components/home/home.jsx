@@ -1,23 +1,31 @@
 import './home.css';
 import home_image from '../../images/home_image.png';
 import resume from '../../documents/NirmalChaudhari_CurrentResume.pdf';
+import linkedin from '../../images/linkedin.png';
+import github from '../../images/github.png';
+
 import React from 'react';
 
 
 function Home(){
     return(
         <div className="home">
+            <div className="network">
+                <ul id="netul">
+                    <li><a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"><img id="linkedin" alt="LinkedIn_img" src={linkedin} href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"></img></a></li>
+                    <li><h2 id="logo">NC</h2></li>
+                    <li><a target="_blank"  rel="noreferrer" href="https://github.com/Nirmal-code"><img id="github" alt="Github_img" src={github} href="https://github.com/Nirmal-code"></img></a></li>
+                </ul>
+            </div>
             <div className="title">
-                <h1 id="greeting">Hi, I'm</h1>
-                <h1 id='name'>Nirmal Chaudhari</h1>
-                <h1>&lt;Software Engineer&gt;</h1>
+                <h1 id="intr">Hi, I'm</h1>
+                <h1 id="greeting"><br/>Nirmal Chaudhari<br/>&lt;Software Engineer&gt;</h1>
                 <hr></hr>
                 <h3 id="des">Skilled at developing, testing, and implementing efficient codes to perform various tasks.</h3>
+                <a href={resume} id="resume" download>Download Resume</a>
+                <img src={home_image} id="main_image" alt="my_bitmoji"></img>
             </div>
 
-            <a href={resume} id="resume" download>Download Resume</a>
-
-            <img src={home_image} id="main_image" alt="my_bitmoji"></img>
 
             
         </div>

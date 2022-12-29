@@ -1,23 +1,26 @@
-import './nav.css';
-import linkedin from '../../images/linkedin.png'
-import github from '../../images/github.png'
 import React from 'react';
+import './nav.css';
+
+import home from '../../images/home.png';
+import about from '../../images/about.png';
+import skills from '../../images/skills.png';
+import projects from'../../images/projects.png';
+import experience from'../../images/experience.png';
+import {useState} from "react";
+
 
 
 
 function navbar(){
     return(
         <div className="nav">
-            <div className="network">
-                <ul id="netul">
-                    <li><h2 id="logo">NC</h2></li>
-                    <li><a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"><img id="linkedin" alt="LinkedIn_img" src={linkedin} href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"></img></a></li>
-                    <li><a target="_blank"  rel="noreferrer" href="https://github.com/Nirmal-code"><img id="github" alt="Github_img" src={github} href="https://github.com/Nirmal-code"></img></a></li>
-                </ul>
-            </div>
-            <div className="navbar">
-                <h1 id="buffer">Nav Buffer</h1>
-            </div>
+            <ul id="main_nav">
+                <li><a href="#home"><img id="home" src={home}></img></a></li>
+                <li><a href=""><img id="about" src={about}></img></a></li>
+                <li><a><img id="skills" src={skills}></img></a></li>
+                <li><a><img id="projects" src={projects}></img></a></li>
+                <li><a><img id="experience" src={experience}></img></a></li>
+            </ul>
         </div>
     );
 }
