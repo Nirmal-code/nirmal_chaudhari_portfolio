@@ -1,4 +1,4 @@
-.navbar{
+.nav{
     position:fixed;
     color:white;
     border:1px solid white;
@@ -10,82 +10,51 @@
     top:88vh;
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
     background-color: rgba(79, 79, 79, 0.5);
-}
-
-#buffer{
-    margin-top:10px;
-    position:relative;
-}
-
-#linkedin{
-    width:40px;
-    border-radius: 5px;
-    position:relative;
-    left:-100px;
-    top:-20px;
-    
-}
-
-#github{
-    width:40px;
-    border-radius: 5px;
-    position:relative;
-    left: 5px;
-    top:-20px;
-    
-}
-
-#netul li{
-    text-decoration: none;
-    display:inline-block;
-
-}
-
-#netul{
-    margin-top:-20px;
-}
-
-#logo{
-    color:yellow;
-    font-family: 'Courier New', Courier, monospace;
-    font-size:50px;
-    position:relative;
-    left:25px;
-    top:-22.5px;
-
-}
-
-.network{
-    width:200px;
-    height:50px;
-    left:5vw;
-    top:5vh;
-    position:fixed;
-    border: 1px solid white;
-    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
-    background-color:rgba(79, 79, 79, 0.5);
-    border-radius: 10px;
-    animation: logoani 1s infinite;
+    text-align: center;
+    animation: navani 1s infinite;
     animation-duration: 2000ms;
     animation-timing-function: linear;
-    display:inline;
-    z-index:1;
-    
+}
+
+
+
+#home, #about, #skills, #projects, #experience{
+    width:40px;
+    background-color:white;
+    border-radius:10px;
+    padding:5px;
+    padding-left:5px;
+    margin-top:-5px;
+}
+
+
+#home:hover, #about:hover, #skills:hover, #projects:hover, #experience:hover{
+    background-color:grey;
+    cursor:pointer;
+}
+
+#main_nav li{
+    text-decoration:none;
+    display:inline-block;
+    padding-right:30px;
 
 }
 
 
-@keyframes logoani {
+
+
+
+@keyframes navani {
     0% {
-        top: 7vh;
+        top: 88vh;
     }
 
     50%{
-        top:8vh;
+        top:87vh;
     }
 
 
     100%{
-        top:7vh;
+        top:88vh;
     }
 }
