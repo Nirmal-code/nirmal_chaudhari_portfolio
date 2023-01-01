@@ -14,13 +14,11 @@ import {useState} from "react";
 function navbar(){
     return(
         <div className="nav">
-            <ul id="main_nav">
-                <li><a href="#home"><img id="home" src={home}></img></a></li>
-                <li><a href=""><img id="about" src={about}></img></a></li>
-                <li><a><img id="skills" src={skills}></img></a></li>
-                <li><a><img id="projects" src={projects}></img></a></li>
-                <li><a><img id="experience" src={experience}></img></a></li>
-            </ul>
+            <a href="#home"><img src={home}></img></a>
+            <a href="#about"><img src={about}></img></a>
+            <a href="#skills"><img src={skills}></img></a>
+            <a><img src={projects}></img></a>
+            <a><img src={experience}></img></a>
         </div>
     );
 }

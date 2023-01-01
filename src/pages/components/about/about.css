@@ -1,0 +1,8 @@
+#about{
+    height:100vh;
+    scroll-behavior: smooth;
+}
+
+#test{
+    position:absolute;
+}

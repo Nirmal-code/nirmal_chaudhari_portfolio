@@ -2,42 +2,44 @@
     position:fixed;
     color:white;
     border:1px solid white;
-    width:500px;
+    transform: translateX(-50%);
+    left:50%;
+    width:max-content;
     height:70px;
     border-radius:20px;
-    left:50%;
-    margin-left:-200px;
     top:88vh;
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
     background-color: rgba(79, 79, 79, 0.5);
-    text-align: center;
+    display:flex;
     animation: navani 1s infinite;
     animation-duration: 2000ms;
     animation-timing-function: linear;
 }
 
 
-
-#home, #about, #skills, #projects, #experience{
+.nav img{
     width:40px;
     background-color:white;
     border-radius:10px;
     padding:5px;
-    padding-left:5px;
-    margin-top:-5px;
+    display:flex;
+
 }
 
 
-#home:hover, #about:hover, #skills:hover, #projects:hover, #experience:hover{
+.nav a{
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    position:relative;
+    padding:20px;
+
+
+}
+
+.nav img:hover{
     background-color:grey;
     cursor:pointer;
-}
-
-#main_nav li{
-    text-decoration:none;
-    display:inline-block;
-    padding-right:30px;
-
 }
 
 

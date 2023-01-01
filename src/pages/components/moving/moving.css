@@ -85,16 +85,12 @@
 }
 
 
-
-
-
-
   
 @keyframes sampleanimation {
     0% {
-        top: -100%;
+        top:-1000px;
     }
     100%{
-        top:100%;
+        top:215vh;
     }
 }

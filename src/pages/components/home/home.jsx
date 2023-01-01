@@ -3,13 +3,16 @@ import home_image from '../../images/home_image.png';
 import resume from '../../documents/NirmalChaudhari_CurrentResume.pdf';
 import linkedin from '../../images/linkedin.png';
 import github from '../../images/github.png';
+import Binary from '../moving/moving';
+
 
 import React from 'react';
 
 
 function Home(){
     return(
-        <div className="home">
+        <section id="home">
+            <Binary />
             <div className="network">
                 <ul id="netul">
                     <li><a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"><img id="linkedin" alt="LinkedIn_img" src={linkedin} href="https://www.linkedin.com/in/nirmal-chaudhari-0990581aa/"></img></a></li>
@@ -26,9 +29,7 @@ function Home(){
                 <img src={home_image} id="main_image" alt="my_bitmoji"></img>
             </div>
 
-
-            
-        </div>
+        </section>
 
     );
 }
