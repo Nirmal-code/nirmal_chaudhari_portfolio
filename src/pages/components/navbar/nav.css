@@ -26,6 +26,10 @@
 
 }
 
+.nav img.active{
+    background-color:grey;
+}
+
 
 .nav a{
     color: white;

@@ -6,22 +6,23 @@ import about from '../../images/about.png';
 import skills from '../../images/skills.png';
 import projects from'../../images/projects.png';
 import experience from'../../images/experience.png';
-import {useState} from "react";
+import {useState} from 'react';
 
 
 
 
-function navbar(){
+function Navbar(){
+    const[currNav, setCurrNav]=useState('#home')
     return(
         <div className="nav">
-            <a href="#home"><img src={home}></img></a>
-            <a href="#about"><img src={about}></img></a>
-            <a href="#skills"><img src={skills}></img></a>
-            <a><img src={projects}></img></a>
-            <a><img src={experience}></img></a>
+            <a href="#home"  onClick={()=>setCurrNav('#home')}><img alt="home" src={home} className={currNav==="#home"?'active':''}></img></a>
+            <a href="#about" onClick={()=>setCurrNav('#about')}><img alt="about" src={about} className={currNav==="#about"?'active':''}></img></a>
+            <a href="#skills" onClick={()=>setCurrNav('#skills')}><img alt="skills"src={skills} className={currNav==="#skills"?'active':''}></img></a>
+            <a onClick={()=>setCurrNav('#projects')}><img alt="projects" src={projects} className={currNav==="#projects"?'active':''}></img></a>
+            <a onClick={()=>setCurrNav('#experience')}><img alt="experience" src={experience} className={currNav==="#experience"?'active':''}></img></a>
         </div>
     );
 }
 
 
-export default navbar;
+export default Navbar;
