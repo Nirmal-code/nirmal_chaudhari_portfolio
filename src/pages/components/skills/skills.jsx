@@ -5,7 +5,7 @@ import './skills.css';
 function Skills(){
     return(
         <section id="skills">
-            <h1 id="test2">Hello2</h1>
+            <h2 id="ttl">&lt;Skills /&gt;</h2>
         </section>
     );
 }

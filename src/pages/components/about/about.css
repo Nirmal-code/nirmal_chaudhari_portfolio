@@ -1,8 +1,85 @@
 #about{
-    height:100vh;
+    height:95vh;
     scroll-behavior: smooth;
 }
 
-#test{
+#ttl{
+    font-family: 'Crimson Text';
+    text-align:left;
+    font-size:75px;
+    color:#FFFFFF;
     position:absolute;
+    left:6vw;
+    top:-3vh;
+}
+
+#my_pic{
+    width:27vw;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+
+.visual{
+    position:absolute;
+    left:10vw;
+    top:22vh;
+}
+
+.visual:hover #charac{
+    cursor:pointer;
+    visibility: visible;
+}
+
+
+.visual:hover #my_pic{
+    filter:blur(5px);
+}
+
+#charac{
+    z-index:+2;
+    position:absolute;
+    font-family: 'Courier New', Courier, monospace;
+    color:yellow;
+    line-height: 90px;
+    font-size:30px;
+    top:10px;
+    left:-50px;
+    width:500px;
+    visibility: hidden;
+}
+
+.description{
+    width:50vw;
+    position:absolute;
+    border:1px solid white;
+    border-radius:10px;
+    background-color:rgb(0, 0, 0);
+    left:42.5vw;
+    top:8vh;
+    font-size:19px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right:20px;
+
+
+}
+
+
+#prompt{
+    color:rgb(4, 131, 235);
+    padding-left:20px;
+}
+
+#des_text, #courses, #courses_list, #gpa, #des_ttl, #com_proj, #exp_time{
+    color:white;
+    padding-left:30px;
+}
+
+#des_text{
+    padding-left:50px;
+}
+
+#courses_list{
+    list-style: none;
+    padding-left:50px;
 }

@@ -1,5 +1,5 @@
 #home{
-    height:100vh;
+    height:95vh;
     scroll-behavior: smooth;
 }
 
@@ -65,6 +65,27 @@
 
 }
 
+
+#blinker{
+    font-size:30px;
+    color:rgb(200,200,200);
+    animation: 12s blink infinite;
+    animation-duration:1000ms;
+    animation-fill-mode:forwards;
+    visibility:hidden;
+}
+
+@keyframes blink{
+    50%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+
+
 @keyframes logoani {
     0% {
         top: 7vh;
@@ -127,7 +148,7 @@ hr{
 
 #main_image{
     position:absolute;
-    width:600px;
+    width:700px;
     top:-10vh;
     right:-25vw;
 
@@ -168,6 +189,10 @@ hr{
     #des{
         font-size:30px;
         color: rgb(200, 200, 200);
+    }
+
+    h3{
+        display:inline;
     }
 
 }

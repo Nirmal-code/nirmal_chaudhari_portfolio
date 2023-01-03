@@ -23,8 +23,11 @@ function Home(){
             <div className="title">
                 <h1 id="intr">Hi, I'm</h1>
                 <h1 id="greeting"><br/>Nirmal Chaudhari<br/>&lt;Software Engineer&gt;</h1>
-                <hr></hr>
-                <h3 id="des">Skilled at developing, testing, and implementing efficient codes to perform various tasks.</h3>
+                <hr />
+                <h3 id="des">Skilled at developing, testing, and implementing efficient codes to perform various tasks</h3>
+                <h3 id="blinker">|</h3>
+                <br />
+                <br />
                 <a href={resume} id="resume" download>Download Resume</a>
                 <img src={home_image} id="main_image" alt="my_bitmoji"></img>
             </div>
