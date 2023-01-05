@@ -19,6 +19,7 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
 
+
 function Slide(props){
     return(
         <SwiperSlide className={props.class_name}>
@@ -51,7 +52,9 @@ function Experience(){
             spaceBetween={40}
             slidesPerView={1}
             navigation={true}
-            pagination={{clickable:true}}>
+            pagination={{clickable:true}}
+            loop="true"
+            autoplay>
                 <SwiperSlide>
                     <Slide class_name="leader_slides" url={sfl} date="Software Developer | Sept 2021-Current" info="Collaborated with experienced programmers through GitHub and Slack to develop websites for various clients. Developed my skills as a frontend developer using JavaScript frameworks React.js and Next.js by regularly developing web components. Published websites using Gatsby Cloud by connecting it to GitHub repositories. " title="Software for Love" />
                 </SwiperSlide>
@@ -69,10 +72,12 @@ function Experience(){
             <Swiper 
             className="leadership_wrap"
             modules={[Navigation, Pagination]}
-            spaceBetween={40}
+            spaceBetween={50}
             slidesPerView={1}
             navigation={true}
-            pagination={{clickable:true}}>
+            pagination={{clickable:true}}
+            loop="true"
+            >
                 <SwiperSlide>
                     <Slide class_name="leader_slides" url={gdsc} date="Community and Code | Sept 2022-Current" info="As part of the Community and Code team, I collaborate with other students to organize a Google Incubator for McMaster by January 2023. I attend various campus events to network with sponsors, and managed to obtain 4 sponsors for the event." title="GDSC" />
                 </SwiperSlide>

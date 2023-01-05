@@ -3,7 +3,6 @@ import home_image from '../../images/home_image.png';
 import resume from '../../documents/NirmalChaudhari_CurrentResume.pdf';
 import linkedin from '../../images/linkedin.png';
 import github from '../../images/github.png';
-import mail from '../../images/mail.png';
 import Binary from '../moving/moving';
 
 
