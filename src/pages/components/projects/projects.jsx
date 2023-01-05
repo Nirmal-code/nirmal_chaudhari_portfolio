@@ -23,7 +23,6 @@ function ProjectItem(props){
     )
 }
 
-
 function Projects(){
     return(
         <section id="projects">
@@ -34,7 +33,6 @@ function Projects(){
                 <ProjectItem name="Q-Arm Project" date="Nov 2021" icon={github} image={qarm} url="https://github.com/Nirmal-code/Q-Arm_Project" des="Programmed a Q-Arm to work in surgical environments to sterilize equipment for use by responding to muscle sensor emulators. Developed using Python and a Raspberry Pi. "/>
                 <ProjectItem name="Humans Project" date="Feb 2022" icon={github} image={humans} url="https://github.com/Nirmal-code/Humans-Project" des="Collaborated as a group of over 6 people in SFL to develop a website that helps give a voice to influential people in our socieity. Completed using React.js, Node.js, HTML and CSS."/>
                 <ProjectItem name="Eng 1P13 Projects" date="Sep 2021-Apr 2022" icon={exter} image={P13} url="https://abalone-bowler-f8e.notion.site/Nirmal-Chaudhari-6d456ba722de443eb8f0046fa48bbd7f" des="Various projects I worked on in groups of 4-5 as part of my Eng 1P13 course in first year. Developed skills in Engineering Design, Python, AutoCAD, PrusaSlicer, Report Writing."/>
-        
             </div>
         </section>
     );

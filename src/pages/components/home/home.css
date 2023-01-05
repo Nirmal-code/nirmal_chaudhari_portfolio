@@ -110,6 +110,13 @@ hr{
     margin-top:-40px;
 }
 
+#mail{
+    width:40px;
+    border-radius:10px;
+    position:relative;
+
+}
+
 #resume{
     text-decoration: none;
     position:relative;
@@ -121,6 +128,7 @@ hr{
     color:white;
     width:400px;
     border-radius:20px;
+    margin-left:20px;
 }
 
 #resume:hover{

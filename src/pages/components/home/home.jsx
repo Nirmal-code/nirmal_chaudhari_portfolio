@@ -3,6 +3,7 @@ import home_image from '../../images/home_image.png';
 import resume from '../../documents/NirmalChaudhari_CurrentResume.pdf';
 import linkedin from '../../images/linkedin.png';
 import github from '../../images/github.png';
+import mail from '../../images/mail.png';
 import Binary from '../moving/moving';
 
 
@@ -29,6 +30,7 @@ function Home(){
                 <br />
                 <br />
                 <a href={resume} id="resume" download>Download Resume</a>
+                <a href="mailto: nirmal.chaudhari2003@gmail.com" id="resume">✉</a>
                 <img src={home_image} id="main_image" alt="my_bitmoji"></img>
             </div>
 

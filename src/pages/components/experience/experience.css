@@ -1,4 +1,79 @@
 #experience{
-    height:95vh;
+    height:100vh;
     scroll-behavior: smooth;
+}
+
+
+.leader_slides{
+    position:absolute;
+
+}
+
+#exp_img{
+    width:25vw;
+    height:225px;
+    position:relative;
+    border-radius:30px;
+    top:-15%;
+    margin-left:-50%;
+    align-self: left;
+
+}
+
+#exp_des{
+    position:relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:21px;
+    left:33vw;
+    width:30vw;
+    top:-80%;
+}
+
+.exp_description{
+    display:inline;
+    color:white;
+}
+
+.company_name{
+    font-family: 'Courier New', Courier, monospace;
+    position:relative;
+    font-size:50px;
+    margin-top:0px;
+    color:white;
+}
+.date{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    color:white;
+    position:relative;
+    top:-40px;
+}
+
+#exp_ttl{
+    margin-top:100px;
+    margin-bottom:10px;
+    position:absolute;
+    left:37vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+    color:rgb(4, 131, 235);
+}
+
+
+.leadership_wrap{
+    position:absolute;
+    border:1px solid white;
+    width:70vw;
+    height:43vh;
+    top:15vh;
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.555);
+
+    margin-bottom:75px;
+    border-radius:30px;
+
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background:green;
 }

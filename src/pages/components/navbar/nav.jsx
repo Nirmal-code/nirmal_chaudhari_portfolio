@@ -20,6 +20,7 @@ function Navbar(){
             <a href="#skills" onClick={()=>setCurrNav('#skills')}><img alt="skills"src={skills} className={currNav==="#skills"?'active':''}></img></a>
             <a href="#projects" onClick={()=>setCurrNav('#projects')}><img alt="projects" src={projects} className={currNav==="#projects"?'active':''}></img></a>
             <a href="#experience" onClick={()=>setCurrNav('#experience')}><img alt="experience" src={experience} className={currNav==="#experience"?'active':''}></img></a>
+
         </div>
     );
 }

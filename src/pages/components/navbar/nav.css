@@ -14,7 +14,9 @@
     animation: navani 1s infinite;
     animation-duration: 2000ms;
     animation-timing-function: linear;
+    z-index:+5;
 }
+
 
 
 .nav img{
