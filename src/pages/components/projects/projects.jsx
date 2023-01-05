@@ -13,7 +13,7 @@ import exter from '../../images/exter_link.png';
 function ProjectItem(props){
     return(
         <div className="proj_item">
-            <img src={props.image} id="picture"></img>
+            <img src={props.image} id="picture" alt="proj_image"></img>
             <h1 id="name">{props.name}</h1>
             <h2 id="date">{props.date}</h2>
             <p id="proj_des">{props.des}</p>
