@@ -4,13 +4,13 @@
 }
 
 #ttl{
-    font-family: 'Crimson Text';
+    font-family: 'Courier New', Courier, monospace;
     text-align:left;
-    font-size:75px;
+    font-size:50px;
     color:#FFFFFF;
     position:absolute;
     left:6vw;
-    top:-3vh;
+    top:-2vh;
 }
 
 #my_pic{
@@ -22,7 +22,7 @@
 .visual{
     position:absolute;
     left:10vw;
-    top:22vh;
+    top:20vh;
 }
 
 .visual:hover #charac{
@@ -50,6 +50,7 @@
 
 .description{
     width:50vw;
+    height:75vh;
     position:absolute;
     border:1px solid white;
     border-radius:10px;
@@ -60,8 +61,10 @@
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     padding-right:20px;
+}
 
-
+.description:hover{
+    box-shadow: 0 0 20px yellow;
 }
 
 

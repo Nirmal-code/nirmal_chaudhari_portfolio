@@ -6,7 +6,7 @@ import main_pic from '../../images/my_picture.png';
 function About(){
     return(
         <section id="about">
-            <h2 id="ttl">&lt;About /&gt;</h2>
+            <h2 id="ttl">&lt;About Me /&gt;</h2>
 
             <div className="visual">
                 <img id="my_pic" src={main_pic}></img>

@@ -1,5 +1,58 @@
 #skills{
-    height:95vh;
+    height:100vh;
     scroll-behavior: smooth;
 }
 
+
+.wrapper{
+    width:85vw;
+    position:relative;
+    top: 16vh;
+    left:8vw;
+    border-radius:30px;
+    font-family: 'Courier New', Courier, monospace;
+    border:1px solid white;
+    background-color:rgba(0, 0, 0, 0.425);
+    margin-top:20px;
+    padding-bottom:30px;
+}
+.wrapper:hover{
+    box-shadow: 0 0 20px yellow;
+
+}
+
+#sec_ttl{
+    position:relative;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:35px;
+    margin-bottom:3px;
+    color:rgb(4, 131, 235);
+}
+
+
+.items{
+    border:1px solid white;
+    color:white;
+    width:18vw;
+    padding-top:30px;
+    padding-bottom:30px;
+
+
+    border-radius: 20px;
+    background-color: black;
+    display:inline-block;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.items:hover{
+    box-shadow: 0 0 20px yellow;
+}
+
+#item_ttl{
+    font-size:20px;
+    top:0vh;
+    vertical-align:center;
+    position:relative;
+}
