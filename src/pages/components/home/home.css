@@ -101,14 +101,6 @@
     }
 }
 
-hr{
-    height:3px;
-    background-color:#FFFFFF;
-    width:500px;
-    position:relative;
-    left:-25%;
-    margin-top:-40px;
-}
 
 
 #resume{
@@ -137,12 +129,6 @@ hr{
     position:relative;
 }
 
-#intr{
-    font-size:40px;
-    line-height:50px;
-    margin-bottom:-100px;
-    margin-top:150px;
-}
 
 
 #main_image{
@@ -152,10 +138,16 @@ hr{
 
 }
 
+hr{
+    background-color:#FFFFFF;
+    position:relative;
+}
+
 @media only screen and (max-width:769px){
     .title{
         text-align:center;
         top:7vh;
+        width:90vw;
     }
 
     hr{
@@ -187,19 +179,26 @@ hr{
 }
 
 
-@media only screen and (min-width:768px) and (max-width:1260px){
+@media only screen and (min-width:770px) and (max-width:1260px){
     .title{
-        margin-left:5%;
-        width:1000px;
+        margin-left:2%;
+        width:90vw;
+    }
+
+    hr{
+        height:3px;
+        width:40vw;
+        margin-left:0px;
+        margin-top:-40px;
     }
 
     #des{
-        font-size:30px;
+        font-size:20px;
         color: rgb(200, 200, 200);
     }
 
     #greeting{
-        font-size:70px;
+        font-size:50px;
         font-weight: 600;
         line-height:70px;
     }
@@ -209,7 +208,7 @@ hr{
     }
 
     #intr{
-        font-size:40px;
+        font-size:30px;
         line-height:50px;
         margin-bottom:-100px;
         margin-top:150px;
@@ -248,6 +247,13 @@ hr{
         margin-top:150px;
     }
 
+    hr{
+        height:3px;
+        width:500px;
+        left:-25%;
+        margin-top:-40px;
+    }
+
 }
 
 
@@ -278,6 +284,13 @@ hr{
         line-height:50px;
         margin-bottom:-100px;
         margin-top:150px;
+    }
+
+    hr{
+        height:3px;
+        width:500px;
+        left:-25%;
+        margin-top:-40px;
     }
 
 
