@@ -138,10 +138,6 @@
 
 }
 
-hr{
-    background-color:#FFFFFF;
-    position:relative;
-}
 
 @media only screen and (max-width:769px){
     .title{
@@ -150,9 +146,6 @@ hr{
         width:90vw;
     }
 
-    hr{
-        display:none;
-    }
 
     #greeting{
         font-size:40px;
@@ -183,13 +176,6 @@ hr{
     .title{
         margin-left:2%;
         width:90vw;
-    }
-
-    hr{
-        height:3px;
-        width:40vw;
-        margin-left:2%;
-        margin-top:-40px;
     }
 
     #des{
@@ -247,12 +233,6 @@ hr{
         margin-top:150px;
     }
 
-    hr{
-        height:3px;
-        width:500px;
-        left:-25%;
-        margin-top:-40px;
-    }
 
 }
 
@@ -286,12 +266,6 @@ hr{
         margin-top:150px;
     }
 
-    hr{
-        height:3px;
-        width:500px;
-        left:-25%;
-        margin-top:-40px;
-    }
 
 
 }
