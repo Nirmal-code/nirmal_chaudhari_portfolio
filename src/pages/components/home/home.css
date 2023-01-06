@@ -1,5 +1,5 @@
 #home{
-    height:95vh;
+    height:750px;
     scroll-behavior: smooth;
 }
 
@@ -134,10 +134,7 @@ hr{
 
 
 #greeting{
-    font-size:70px;
-    font-weight: 600;
     position:relative;
-    line-height:70px;
 }
 
 #intr{
@@ -150,31 +147,72 @@ hr{
 
 #main_image{
     position:absolute;
-    width:700px;
-    top:-10vh;
-    right:-25vw;
+    width:40vw;
+    right:0;
 
 }
 
 @media only screen and (max-width:769px){
-    #name{
-        font-size:60px;
+    .title{
+        text-align:center;
+        top:7vh;
     }
-    
+
+    hr{
+        display:none;
+    }
+
     #greeting{
         font-size:40px;
+        font-weight: 600;
+        line-height:50px;
+    }
+
+    #des{
+        font-size:20px;
+        color: rgb(200, 200, 200);
+    }
+
+    h3{
+        display:inline;
+    }
+
+    #intr{
+        font-size:25px;
+        line-height:50px;
+        margin-bottom:-75px;
+        margin-top:50px;
     }
 
 }
 
 
 @media only screen and (min-width:768px) and (max-width:1260px){
-    #name{
-        font-size:60px;
+    .title{
+        margin-left:5%;
+        width:1000px;
     }
-    
+
+    #des{
+        font-size:30px;
+        color: rgb(200, 200, 200);
+    }
+
     #greeting{
+        font-size:70px;
+        font-weight: 600;
+        line-height:70px;
+    }
+
+    h3{
+        display:inline;
+    }
+
+    #intr{
         font-size:40px;
+        line-height:50px;
+        margin-bottom:-100px;
+        margin-top:150px;
     }
 
 }
@@ -193,23 +231,54 @@ hr{
         color: rgb(200, 200, 200);
     }
 
+    #greeting{
+        font-size:70px;
+        font-weight: 600;
+        line-height:70px;
+    }
+
     h3{
         display:inline;
+    }
+
+    #intr{
+        font-size:40px;
+        line-height:50px;
+        margin-bottom:-100px;
+        margin-top:150px;
     }
 
 }
 
 
 @media only screen and (min-width:1501px){
-    
-    #greeting{
-        font-size:40px;
+    .title{
+        margin-left:5%;
+        width:1000px;
     }
 
     #des{
         font-size:30px;
         color: rgb(200, 200, 200);
-        width:500px;
     }
+
+    #greeting{
+        font-size:70px;
+        font-weight: 600;
+        line-height:70px;
+    }
+
+    h3{
+        display:inline;
+    }
+
+
+    #intr{
+        font-size:40px;
+        line-height:50px;
+        margin-bottom:-100px;
+        margin-top:150px;
+    }
+
 
 }

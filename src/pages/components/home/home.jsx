@@ -30,8 +30,9 @@ function Home(){
                 <br />
                 <a href={resume} id="resume" download>Download Resume</a>
                 <a href="mailto: nirmal.chaudhari2003@gmail.com" id="resume">✉</a>
-                <img src={home_image} id="main_image" alt="my_bitmoji"></img>
             </div>
+            <img src={home_image} id="main_image" alt="my_bitmoji"></img>
+
 
         </section>
 
