@@ -14,15 +14,19 @@
 }
 
 #my_pic{
-    width:27vw;
+    width:25vw;
+    height:50vh;
     border-radius: 30px;
     border: 1px solid #000000;
+    position:absolute;
+
 }
 
 .visual{
     position:absolute;
     left:10vw;
     top:20vh;
+    height:60vh;
 }
 
 .visual:hover #charac{
@@ -37,26 +41,26 @@
 
 #charac{
     z-index:+2;
-    position:absolute;
+    position:relative;
     font-family: 'Courier New', Courier, monospace;
     color:yellow;
-    line-height: 90px;
-    font-size:30px;
-    top:10px;
-    left:-50px;
-    width:500px;
+    text-align: center;
+    width:27vw;
     visibility: hidden;
+    top:15%;
+    left:5%;
+    width:25vw;
 }
 
 .description{
     width:50vw;
-    height:75vh;
+    height:max-content;
     position:absolute;
     border:1px solid white;
     border-radius:10px;
     background-color:rgb(0, 0, 0);
     left:42.5vw;
-    top:8vh;
+    top:15vh;
     font-size:19px;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
@@ -85,4 +89,57 @@
 #courses_list{
     list-style: none;
     padding-left:50px;
+}
+
+
+@media only screen and (max-width:769px){
+    .description{
+        font-size:14px;
+        width:80vw;
+        left:7vw
+    }
+
+    .visual{
+        display:none;
+    }
+}
+
+
+
+@media only screen and (min-width:770px) and (max-width:1260px){
+    .description{
+        font-size:15px;
+    }
+
+    #charac{
+        line-height: 40px;
+        font-size:20px;
+        left:8%;
+    }
+}
+
+
+@media only screen and (min-width:1261px) and (max-width:1500px){
+    .description{
+        font-size:17.5px;
+    }
+
+    #charac{
+        line-height: 60px;
+        font-size:30px;
+        left:4%;
+    }
+}
+
+
+@media only screen and (min-width:1501px){
+    .description{
+        font-size:17.5px;
+    }
+
+    #charac{
+        line-height: 60px;
+        font-size:30px;
+        left:30%;
+    }
 }
