@@ -56,3 +56,35 @@
     vertical-align:center;
     position:relative;
 }
+
+
+@media only screen and (max-width:769px){
+
+    #item_ttl{
+        font-size:14px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:770px) and (max-width:1260px){
+    #item_ttl{
+        font-size:19px;
+    }
+
+}
+
+
+@media only screen and (min-width:1261px) and (max-width:1500px){
+    #item_ttl{
+        font-size:22px;
+    }
+}
+
+
+@media only screen and (min-width:1501px){
+    #item_ttl{
+        font-size:24px;
+    }
+}

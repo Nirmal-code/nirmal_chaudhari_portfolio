@@ -25,12 +25,8 @@
 }
 
 #exp_des{
-    position:relative;
+    position:absolute;
     font-family: 'Courier New', Courier, monospace;
-    font-size:21px;
-    left:33vw;
-    width:30vw;
-    top:-80%;
 }
 
 .exp_description{
@@ -80,4 +76,89 @@
 
 .swiper-pagination-clickable .swiper-pagination-bullet{
     background:green;
+}
+
+
+@media only screen and (max-width:769px){
+
+    #exp_des{
+        font-size:12px;
+        left:33vw;
+        width:30vw;
+        top:20%;
+        position:absolute;
+
+    }
+
+    .company_name{
+        font-size:27px;
+    }
+
+    .date{
+        font-size:12px;
+        top:-18px;
+    }
+
+    #exp_img{
+        top:-5%;
+    }
+
+    #exp_ttl{
+        left:23vw;
+        font-size:25px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:770px) and (max-width:1260px){
+
+    #exp_des{
+        font-size:16px;
+        left:33vw;
+        width:30vw;
+        top:15%;
+        position:absolute;
+
+    }
+
+    .company_name{
+        font-size:34px;
+    }
+
+    .date{
+        font-size:17px;
+    }
+
+    #exp_ttl{
+        left:25vw;
+    }
+
+}
+
+
+@media only screen and (min-width:1261px) and (max-width:1500px){
+
+    #exp_des{
+        font-size:20px;
+        left:33vw;
+        width:30vw;
+        top:20%;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:1501px){
+
+    #exp_des{
+        font-size:20px;
+        left:33vw;
+        width:30vw;
+        top:20%;
+    }
 }

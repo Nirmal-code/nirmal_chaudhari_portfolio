@@ -67,3 +67,79 @@
     border-radius: 5px;
     position:relative;  
 }
+
+
+@media only screen and (max-width:769px){
+
+    #name{
+        font-size:20px;
+    }
+
+    #date{
+        font-size:15px;
+        margin-top:-20px;
+    }
+
+    #proj_des{
+        font-size:9.5px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:770px) and (max-width:1260px){
+
+    #name{
+        font-size:25px;
+    }
+
+    #date{
+        font-size:18px;
+        margin-top:-20px;
+    }
+
+    #proj_des{
+        font-size:11px;
+    }
+
+}
+
+
+@media only screen and (min-width:1261px) and (max-width:1500px){
+
+    #name{
+        font-size:25px;
+    }
+
+    #date{
+        font-size:18px;
+        margin-top:-20px;
+    }
+
+    #proj_des{
+        font-size:18px;
+    }
+
+
+}
+
+
+@media only screen and (min-width:1501px){
+
+    #name{
+        font-size:30px;
+    }
+
+    #date{
+        font-size:20px;
+        margin-top:-20px;
+    }
+
+    #proj_des{
+        font-size:25px;
+    }
+
+
+}
