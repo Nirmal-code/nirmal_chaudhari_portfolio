@@ -1,6 +1,6 @@
 import './home.css';
 import home_image from '../../images/home_image.png';
-import resume from '../../documents/NirmalChaudhari_CurrentResume.pdf';
+import resume from '../../documents/Nirmal_Chaudhari_SE_Resume.pdf';
 import linkedin from '../../images/linkedin.png';
 import github from '../../images/github.png';
 import Binary from '../moving/moving';
